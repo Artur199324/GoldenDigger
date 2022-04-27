@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgst">
+
+    <com.tt.whorlviewlibrary.WhorlView
+        android:id="@+id/whorl2"
+        android:layout_width="192dp"
+        android:layout_height="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:whorlview_circle_colors="#F14336_#ffffff_#5677fc_#F44336_#4CAF50"
+        app:whorlview_circle_speed="270"
+        app:whorlview_parallax="fast"
+        app:whorlview_strokeWidth="6"
+        app:whorlview_sweepAngle="90"
+        tools:ignore="MissingConstraints" />
+
+    <com.sanojpunchihewa.glowbutton.GlowButton
+        android:id="@+id/bu1"
+        android:layout_width="328dp"
+        android:layout_height="98dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="start game"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:buttonColor="#994D1E"
+        app:cornerRadius="50dp"
+        app:glowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pressedGlowSize="25dp"
+        app:unpressedGlowSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.sanojpunchihewa.glowbutton.GlowButton
+        android:id="@+id/bu2"
+        android:layout_width="328dp"
+        android:layout_height="98dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="close games"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:buttonColor="#994D1E"
+        app:cornerRadius="50dp"
+        app:glowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bu1"
+        app:layout_constraintVertical_bias="0.123"
+        app:pressedGlowSize="25dp"
+        app:unpressedGlowSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.sanojpunchihewa.glowbutton.GlowButton
+        android:id="@+id/buIn"
+        android:layout_width="328dp"
+        android:layout_height="98dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="ok"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:buttonColor="#994D1E"
+        app:cornerRadius="50dp"
+        app:glowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        app:pressedGlowSize="25dp"
+        app:unpressedGlowSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Connect to the Internet"
+        android:textColor="#F6F5F5"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/whorl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
