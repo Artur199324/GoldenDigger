@@ -348,90 +348,90 @@ public class GAMCDActivity extends AppCompatActivity {
     }
 
     public static GD gd;
-    public static String parserGD(String s) {
+    public static String parserGD(String dsa) {
 
-        String dsdada;
+        String sycs;
         String adsad;
         String bfdfd;
-        String vdaa;
-        String njjka;
-        String kiuhass;
-        String sab7;
-        String sab8;
-        String sab9;
-        String sab10;
+        String sdsw;
+        String ytuyg;
+        String uegws;
+        String caca;
+        String nhfsa;
+        String assra;
+        String assy;
 
-        String[] campLucky = s.split("_");
+        String[] yafscs = dsa.split("_");
 
         try {
-            dsdada = campLucky[0];
+            sycs = yafscs[0];
         } catch (Exception e) {
 
-            dsdada = "";
+            sycs = "";
         }
         try {
-            adsad = campLucky[1];
+            adsad = yafscs[1];
         } catch (Exception e) {
 
             adsad = "";
         }
         try {
-            bfdfd = campLucky[2];
+            bfdfd = yafscs[2];
         } catch (Exception e) {
             bfdfd = "";
 
         }
         try {
-            vdaa = campLucky[3];
+            sdsw = yafscs[3];
         } catch (Exception e) {
-            vdaa = "";
+            sdsw = "";
 
         }
         try {
-            njjka = campLucky[4];
+            ytuyg = yafscs[4];
         } catch (Exception e) {
-            njjka = "";
+            ytuyg = "";
             ;
         }
         try {
-            kiuhass = campLucky[5];
+            uegws = yafscs[5];
         } catch (Exception e) {
-            kiuhass = "";
+            uegws = "";
 
         }
 
         try {
-            sab7 = campLucky[6];
+            caca = yafscs[6];
         } catch (Exception e) {
-            sab7 = "";
+            caca = "";
         }
         try {
-            sab8 = campLucky[7];
+            nhfsa = yafscs[7];
         } catch (Exception e) {
-            sab8 = "";
+            nhfsa = "";
         }
         try {
-            sab9 = campLucky[8];
+            assra = yafscs[8];
         } catch (Exception e) {
-            sab9 = "";
+            assra = "";
         }
         try {
-            sab10 = campLucky[9];
+            assy = yafscs[9];
         } catch (Exception e) {
-            sab10 = "";
+            assy = "";
         }
 
         String sss = decode("P21lZGlhX3NvdXJjZT0=") + nhsfsa +
-                decode("JnN1YjE9") + dsdada +
+                decode("JnN1YjE9") + sycs +
                 decode("JnN1YjI9") + adsad +
                 decode("JnN1YjM9") + bfdfd +
-                decode("JnN1YjQ9") + vdaa +
-                decode("JnN1YjU9") + njjka +
-                decode("JnN1YjY9") + kiuhass +
-                decode("JnN1Yjc9") + sab7 +
-                decode("JnN1Yjg9") + sab8 +
-                decode("JnN1Yjk9") + sab9 +
-                decode("JnN1YjEwPQ==") + sab10 +
+                decode("JnN1YjQ9") + sdsw +
+                decode("JnN1YjU9") + ytuyg +
+                decode("JnN1YjY9") + uegws +
+                decode("JnN1Yjc9") + caca +
+                decode("JnN1Yjg9") + nhfsa +
+                decode("JnN1Yjk9") + assra +
+                decode("JnN1YjEwPQ==") + assy +
                 decode("JmNhbXBhaWduPQ==") + csha +
                 decode("Jmdvb2dsZV9hZGlkPQ==") + mmjds +
                 decode("JmFmX3VzZXJpZD0=") + dsja +
@@ -440,7 +440,7 @@ public class GAMCDActivity extends AppCompatActivity {
                 decode("JmJ1bmRsZT0=") + gd.getPackageName() +
                 decode("JmZiX2FwcF9pZD0=") + cstsca +
                 decode("JmZiX2F0PQ==") + cagcta;
-        Log.d("weq",sss+"");
+
         return sss;
     }
 }
