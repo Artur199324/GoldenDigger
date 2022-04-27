@@ -115,7 +115,7 @@ public class GD extends AppCompatActivity {
             public void onConversionDataSuccess(Map<String, Object> map) {
 
                 jcsha = map.get(decode("YWZfc3RhdHVz")).toString();
-                Log.d("weq", jcsha);
+
                 if (jcsha.equals(decode("Tm9uLW9yZ2FuaWM="))){
 
                     try {
@@ -248,11 +248,10 @@ public class GD extends AppCompatActivity {
                         String load = cayyc + nvhdsus;
                         getSharedPreferences(getPackageName(), MODE_PRIVATE).edit().putString(decode("c2F2ZWRVcmw="), load).apply();
                         stWebGD(load);
+
                         aaaa = 1;
-                        Log.d("weq","App"+load);
                     } else if (csacfrwq != null) {
                         String load = cayyc + oihhds;
-                        Log.d("weq","Deep"+load);
                         getSharedPreferences(getPackageName(), MODE_PRIVATE).edit().putString(decode("c2F2ZWRVcmw="), load).apply();
                         stWebGD(load);
                         aaaa = 1;
@@ -263,7 +262,6 @@ public class GD extends AppCompatActivity {
                             bu1.setVisibility(View.VISIBLE);
                             bu2.setVisibility(View.VISIBLE);
                             whorlView.setVisibility(View.INVISIBLE);
-                            Log.d("weq","game");
                             aaaa = 1;
                         } else {
 
@@ -275,7 +273,6 @@ public class GD extends AppCompatActivity {
                                     decode("JmZiX2FwcF9pZD0=") + cstsca +
                                     decode("JmZiX2F0PQ==") + cagcta;
                             getSharedPreferences(getPackageName(), MODE_PRIVATE).edit().putString(decode("c2F2ZWRVcmw="), load).apply();
-                            Log.d("weq","Organic"+load);
                             stWebGD(load);
                             aaaa = 1;
                         }

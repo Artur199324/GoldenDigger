@@ -29,7 +29,6 @@ public class GaGD {
                 imageS4.setTag(0);
                 imageS5.setTag(0);
                 imageS6.setTag(0);
-                Log.d("weq", "11");
                 Random random = new Random();
                 int a = random.nextInt(6);
                 int b = random.nextInt(6);

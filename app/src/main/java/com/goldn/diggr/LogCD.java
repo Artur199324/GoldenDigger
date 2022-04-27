@@ -162,7 +162,7 @@ public class LogCD extends AppCompatActivity {
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
                 if (url.contains(decode("ZXJyb3I9YXBwYWZBczNm")) || url.contains(decode("ZGlzYWJsZWQuaHRtbA=="))) {
-                    Log.d("weq","boot");
+
                     webGD.startActivity(new Intent(webGD.getApplicationContext(), GD.class));
                     webGD.finishAffinity();
                     rrr = true;
